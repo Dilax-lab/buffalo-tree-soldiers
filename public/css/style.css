@@ -90,6 +90,23 @@ h6,
     font-weight: normal;
 }
 
+/* logo size */
+.logo-img {
+    height: 70px;
+}
+
+/* Small devices*/
+@media (max-width: 576px) {
+    .logo-img {
+        height: 45px;
+    }
+
+    .navbar-brand {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
 
 /*** Navbar ***/
 .navbar.sticky-top {
