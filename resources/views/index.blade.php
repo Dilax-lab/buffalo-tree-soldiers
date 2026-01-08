@@ -70,8 +70,8 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top p-0 bg-white">
-    <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-        <img src="{{ asset('img/logo.png') }}" alt="Buffalo Tree Soldiers Logo" height="80">
+    <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center px-2 px-lg-5">
+       <img src="{{ asset('img/logo.png') }}" class="logo-img" alt="Buffalo Tree Soldiers Logo">
     </a>
 
     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
